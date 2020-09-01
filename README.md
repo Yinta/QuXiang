@@ -8,4 +8,12 @@
 设置模块包括用户头像上传，账号注销以及个人相关信息管理等操作，在主活动MainActivity中，能够进行账号注销以及头像管理操作
 评论与点赞模块用于用户与其他用户之间进行交流互动，用户可在趣事下方发表自己对某一趣事的看法，用户可以为某一趣事进行点赞，为了保证点赞功能模块正常运行，同一用户每日只能为某一趣事点赞一次。
 为了提高系统开发效率，同时使得系统后端更加稳定，系统后端使用Bmob后端云提供的云数据库进行开发，_User表由Bmob后端云提供，其它数据库表根据需求自行创建。
+app部分截图如下：
 ![image](https://github.com/Yinta/QuXiang/blob/master/screenshot/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%E6%A8%A1%E5%9D%97.png)
+![image](https://github.com/Yinta/QuXiang/blob/master/screenshot/%E6%8E%A8%E8%8D%90%E6%A8%A1%E5%9D%971.png)
+![image](https://github.com/Yinta/QuXiang/blob/master/screenshot/%E6%8E%A8%E8%8D%90%E6%A8%A1%E5%9D%972.png)
+![image](https://github.com/Yinta/QuXiang/blob/master/screenshot/%E6%9C%80%E6%96%B0%E6%A8%A1%E5%9D%971.png)
+![image](https://github.com/Yinta/QuXiang/blob/master/screenshot/%E6%9C%80%E6%96%B0%E6%A8%A1%E5%9D%972.png)
+![image](https://github.com/Yinta/QuXiang/blob/master/screenshot/%E6%9C%80%E7%83%AD%E6%A8%A1%E5%9D%971.png)
+![image](https://github.com/Yinta/QuXiang/blob/master/screenshot/%E8%AE%BE%E7%BD%AE%E6%A8%A1%E5%9D%972.png)
+![image](https://github.com/Yinta/QuXiang/blob/master/screenshot/%E8%AF%84%E8%AE%BA%E7%82%B9%E8%B5%9E%E6%A8%A1%E5%9D%972.png)
