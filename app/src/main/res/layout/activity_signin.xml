@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.quxiang.SigninActivity">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/nicknameWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+        app:errorTextAppearance="@style/ErrorStyle"
+        app:counterEnabled="true"
+        app:counterMaxLength="7"
+        app:counterTextAppearance="@style/NormalStyle"
+        app:counterOverflowTextAppearance="@style/OverflowStyle">
+
+        <EditText
+            android:id="@+id/nickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="26dp"
+            android:inputType="textAutoComplete"
+            android:hint="Nickname" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/username_Wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+        app:errorTextAppearance="@style/ErrorStyle"
+        app:counterEnabled="true"
+        app:counterMaxLength="15"
+        app:counterTextAppearance="@style/NormalStyle"
+        app:counterOverflowTextAppearance="@style/OverflowStyle">
+
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="26dp"
+            android:digits="1234567890"
+            android:inputType="phone|number"
+            android:hint="Acount" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/password_Wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usernameWrapper"
+        app:errorEnabled="true"
+        app:errorTextAppearance="@style/ErrorStyle"
+        app:counterEnabled="true"
+        app:counterMaxLength="15"
+        app:passwordToggleEnabled="true"
+        app:counterTextAppearance="@style/NormalStyle"
+        app:counterOverflowTextAppearance="@style/OverflowStyle"
+        android:layout_marginTop="4dp">
+
+        <EditText
+            android:id="@+id/password_"
+            android:textSize="26dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:digits="@string/filter_vcode"
+            android:hint="Password" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_zhuce"
+        android:layout_marginTop="4dp"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+       android:fontFamily="serif"
+        android:layout_width="match_parent"
+        android:background="@drawable/btn_background"
+        android:layout_height="50dp"
+        android:text="注册" />
+</LinearLayout>
+
